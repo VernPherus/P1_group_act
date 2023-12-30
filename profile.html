@@ -3,23 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="css/custom.min.css">
     <title>Profile</title>
-</head>             
-<body>
+</head>  
 
-    <nav class="navbar navbar-inverse">
-        <div class="container-fluid">
-            <div class="navbar-header">
-                <a class="navbar-brand" href="#">WebSiteName</a>
-            </div>
-            <ul class="nav navbar-nav">
-                <li class="active"><a href="#">Home</a></li>
-                <li><a href="#">Page 1</a></li>
-                <li><a href="#">Page 2</a></li>
-                <li><a href="#">Page 3</a></li>
-              </ul>
+    <!--
+        7.	In profile.html, design a profile page with the following content:
+        a.	Profile picture
+        b.	Full name
+        c.	Job title
+        d.	Description
+        e.	Work experience
+    -->
+
+<body class="vh-100 overflow-hidden">
+
+    <nav class="navbar navbar-expand-md bg-primary">
+
+        <div class="container-xxl">
+            <a class="navbar-brand" href="#">
+                <img src="img/placeholder_logo.png" width="40" height="40" alt="">
+                <span class="fw-bold text-secondary">
+                    SCP Foundation
+                </span>
+            </a>
+
+            <!-- TOGGLE BUTTON FOR MOBILE NAV-->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main-nav" aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!--Navbar Links-->
+
+
         </div>
+
     </nav>
 
     <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
