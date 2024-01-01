@@ -1,13 +1,7 @@
-  
+ 
+//* @override default colors
 $primary : #1F2833;
 $secondary : #C5C6C7;
 
-
-body {
-    background-image: url("img/background.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
 
 @import "../node_modules/bootstrap/scss/bootstrap"
