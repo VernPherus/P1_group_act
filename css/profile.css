@@ -1,0 +1,32 @@
+.profile-img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.profile-card,
+.social-card,
+.body-card {
+    margin-bottom: 20px;
+}
+
+/* Limit profile picture size */
+.profile-pic-container {
+    max-width: 150px;
+    max-height: 150px;
+    overflow: hidden;
+}
+
+.social-icon{
+    max-width: 50px;
+    max-height: 50px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.profile-pic-container img,
+.social-icon img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
