@@ -4,3 +4,61 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+body {
+    font-size: 16px;
+    margin: 20px;
+  }
+  
+  h1 {
+    font-size: 2em;
+  }
+  
+  p {
+    margin-bottom: 20px;
+  }
+  
+  @media (max-width: 600px) {
+    body {
+      font-size: 14px;
+      margin: 10px;
+    }
+  
+    h1 {
+      font-size: 1.5em;
+    }
+  
+    p {
+      margin-bottom: 15px;
+    }
+  }
+  
+  @media (min-width: 601px) and (max-width: 992px) {
+    body {
+      font-size: 18px;
+      margin: 15px;
+    }
+  
+    h1 {
+      font-size: 2em;
+    }
+  
+    p {
+      margin-bottom: 25px;
+    }
+  }
+  
+  @media (min-width: 993px) {
+    body {
+      font-size: 20px;
+      margin: 30px;
+    }
+  
+    h1 {
+      font-size: 2.5em;
+    }
+  
+    p {
+      margin-bottom: 30px;
+    }
+  }
